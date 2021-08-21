@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "npm install && node server.js", 
     "lite-server": "lite-server"
   },
   "repository": {
@@ -21,13 +21,13 @@
   "devDependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "mongoose": "^5.13.7",
     "morgan": "^1.10.0",
     "webpack-dev-server": "^4.0.0"
   },
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "mongoose": "^5.13.7"
   }
 }
